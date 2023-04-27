@@ -1,5 +1,5 @@
-Edition.where(start_date: "2021-01-01").first_or_create
-Edition.where(start_date: "2022-01-01").first_or_create
+Edition.where(start_date: "2023-06-01").first_or_create
+Edition.where(start_date: "2023-09-01").first_or_create
 Edition.where(start_date: "2023-01-01").first_or_create
 
 School.where(name: "Educación").first_or_create
